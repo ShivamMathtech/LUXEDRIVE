@@ -1,0 +1,9 @@
+.home-container {
+  height: 100vh;
+  background-image: url("../img/bg.jpg");
+  background-position: center;
+  background-size: cover;
+}
+.overlay {
+  background-color: rgba(0, 0, 0, 0.4);
+}
