@@ -1,9 +1,41 @@
 .home-container {
   height: 100vh;
-  background-image: url("../img/bg.jpg");
+  background-image: url("../img/bg2.jpg");
   background-position: center;
   background-size: cover;
 }
 .overlay {
-  background-color: rgba(0, 0, 0, 0.4);
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.6);
+}
+header {
+  height: 60px;
+  border-bottom: 1px solid #c5c2bf;
+}
+.logo {
+  color: #c5c5c5;
+  letter-spacing: 2px;
+  font-size: 20px;
+}
+.contact-box {
+  display: grid;
+  grid-template-columns: 6fr 6fr;
+  color: #c5c2bf;
+}
+.contact-box div:last-child {
+  border-left: 1px solid white;
+  padding-left: 30px;
+}
+.contact-box a {
+  color: #c5c2bf;
+  font-size: 14px;
+  text-decoration: none;
+}
+.nav-link {
+  color: #c5c2bf;
+  text-decoration: none;
+  letter-spacing: 2px;
+}
+.nav-link:hover {
+  color: #f6f6f6;
 }
