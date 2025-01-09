@@ -39,3 +39,41 @@ header {
 .nav-link:hover {
   color: #f6f6f6;
 }
+.content-1 {
+  height: 400px;
+}
+.text-box-1 {
+  align-items: end;
+  color: #c5c5c5;
+  width: 100%;
+}
+.text-box-1 h2 {
+  color: #c5c2bf;
+  font-weight: normal;
+}
+.form-box {
+  display: flex;
+}
+.mybtn {
+  background: transparent;
+  border: 1px solid #bfa37c;
+  width: 150px;
+  color: white;
+  padding: 5px;
+  margin-left: 5px;
+}
+input {
+  background: transparent;
+  border: none;
+  border-bottom: 1px solid #c5c2bf;
+  margin-left: 10px;
+  width: 200px;
+}
+input::placeholder {
+  color: #c5c2bf;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+input:focus {
+  outline: none;
+}
